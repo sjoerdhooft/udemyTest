@@ -1,0 +1,68 @@
+<!-- type: html:5 through emmet to get the whole header and structure (boilerplate) at once-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- utf-8 is the main character set for html 5-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="This content will be displayed in search engine descriptions">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="author" content="Sjoerd Hooft">
+    <!-- you can use characters from unicode-table.com everywhere, so as well in the title. Go to smileys and copy paste the symbol to here -->
+    <title>🙈 🙉 🙊 - Deny it all</title>
+</head>
+
+<body>
+    <h1>Sjoerd Hooft</h1>
+    <!-- The alt attribute is used for seo to figure out what the page is all about-->
+    <img src="https://media.licdn.com/dms/image/C4E03AQHCQzHTuVc3GA/profile-displayphoto-shrink_100_100/0?e=1566432000&v=beta&t=-EO2IrOKICIMT45FrEZpqLoIQL4v1lgTAdvhGZm8QCA" alt="Sjoerds Profile Picture">
+
+    <!-- Use table header, body and footer so you can make the different sections behave differently later on-->
+    <!-- Tables can be nested but considered bad practice-->
+    <table cellspacing="10">
+        <thead>
+            <th>Create a</th>
+            <th>Table</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>td stand for</td>
+                <td>table data, also known as table cells</td>
+                <td>click on touch keyboard</td>
+                <td>add a smiley</td>
+            </tr>
+            <tr>
+                <td>And now a smiley</td>
+                <td>😃😃😃😃</td>
+                <td>😭🤑😜</td>
+                <td>🍗🎂🥑🥜🥦💖🕳☕</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>And now the Footer</td>
+            </tr>
+        </tfoot>
+        
+    </table>
+
+    <!-- Forms-->
+    <hr>
+    <form action="mailto:sjoerd@warmetal.nl" method="POST" enctype="text/plain">
+        <label for="">Name:</label>
+        <input type="text" name="YourName" id=""><br>
+        <label for="">Email:</label>
+        <input type="email" name="YourEmail" id=""><br>
+        <input type="color" name="YourColor" id=""><br>
+        <input type="file" name="file" id=""><br>
+        <input type="datetime-local" name="date" id=""><br>
+        <input type="range" name="range" id=""><br>
+        <label for="">Message:</label><br>
+        <textarea name="YourMessage" id="" cols="30" rows="10"></textarea>
+        <input type="submit" value="">
+    </form>
+</body>
+
+</html>
